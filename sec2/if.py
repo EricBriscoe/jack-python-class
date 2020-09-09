@@ -1,4 +1,4 @@
-name = input('Please enter your name: ') # Asks for name and stores in 'name' variable
+name = input('Please enter your name: ')  # Asks for name and stores in 'name' variable
 
 if name == 'Jack':
     print('Hello Python student!')
