@@ -3,7 +3,7 @@ students = []
 while True:
     student = input("Input student name: ")
     
-    if student = '':
+    if student == '':
         break
     else:
         students.append(student)
