@@ -12,7 +12,6 @@ while fruit != 'apple':
         break
     tries += 1
 
-print(winner)
 if winner == False:
     print("You Lose!")
 
