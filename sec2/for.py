@@ -1,9 +1,15 @@
-number_of_students = 5
 students = []
 
-for _ in range(number_of_students):
-    student = input('Enter a student name: ')
-    students.append(student)
+while True:
+    student = input("Input student name: ")
+    
+    if student = '':
+        break
+    else:
+        students.append(student)
+
 
 print("Here is the list of students:")
-print(students)
+
+for student in students:
+    print(student)
