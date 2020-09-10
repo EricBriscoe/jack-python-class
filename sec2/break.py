@@ -1,12 +1,12 @@
 fruit = input("Guess which fruit I'm thinking of!: ")
 
-tries = 0
+tries = 1
 max_tries = 5
 
 while fruit != 'apple':
     fruit = input("Nope! Try again: ")
     
-    if tries > max_tries:
+    if tries >= max_tries:
         break
     tries += 1
 
