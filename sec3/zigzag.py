@@ -14,6 +14,8 @@ while True:
             indentIncreasing = False
     else: # indentDecreasing
         indent += -1
+        if indent == 0:
+            indentIncreasing = True
         
 
     time.sleep(.1)
