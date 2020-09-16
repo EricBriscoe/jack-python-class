@@ -1,0 +1,10 @@
+ham = 4321
+
+def spam():
+    ham = 5432 # DONT DO THIS (SCOPE SHADOWING)
+    eggs = 1234
+    print(ham)
+
+spam()
+print(eggs)
+
