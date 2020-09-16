@@ -1,5 +1,9 @@
 def division(numerator, denominator):
-    return numerator / denominator
+    try:
+        return numerator / denominator
+    except ZeroDivisionError:
+        return "Error! Cannot divide by zero!"
+
 
 print(division(4, 2))
 print(division(3, 2))
