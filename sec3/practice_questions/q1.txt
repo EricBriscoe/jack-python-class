@@ -1,3 +1,4 @@
 Why are functions advantageous to have in your programs?
+They can reduce the amount of code you have to type so you don't have to duplicate stuff.
 
 
