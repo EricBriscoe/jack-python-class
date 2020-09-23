@@ -1,40 +1,41 @@
-Why are functions advantageous to have in your programs?
+1. Why are functions advantageous to have in your programs?
 They can reduce the amount of code you have to type so you don't have to duplicate stuff.
 
-When does the code in a function execute: when the function is defined or when the function is called?
+2. When does the code in a function execute: when the function is defined or when the function is called?
+When it is called.
 
+3. What statement defines a function?
+Def?
 
-What statement defines a function?
+4. What is the difference between a function and a function call?
+A function is an action and a function call is telling the action to execute.
 
-
-What is the difference between a function and a function call?
-
-
-5. How many global scopes are there in a Python progrm? How many local scopes?
-
+5. How many global scopes are there in a Python program? How many local scopes?
+1 global scope and a local scope for every function.
 
 6. What happens to variables in a local scope when the function call returns?
-
+It becomes undefined.
 
 7. What is a return value? Can a return value be part of an expression?
-
+Ends a function call
 
 8. If a function does not have a return statement, what is the return value of a call to that function?
-
+It doesnt return anything.
 
 9. How can you force a variable in a function to refer to the global variable?
-
+Defining it maybe.
 
 10. What is the data type of None?
+Null value.
 
-
-11. What does the import areallyourpetsnamederic statement do?
-
+11. What does the import are all your pets named eric statement do?
+Asks if all your pets are named eric?
 
 12. If you had a function named bacon() in a module named span how would you call it after importing spam?
-
+Don't really know.
 
 13. How can you prevent a program from crashing when it gets an error?
+Typing except.
 
-
-What goes in the try clause? What goes in the except clause?
+14. What goes in the try clause? What goes in the except clause?
+It executes all statements until an exception is found. Except is used to handle exceptions.

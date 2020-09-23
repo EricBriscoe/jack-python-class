@@ -9,7 +9,7 @@ while True:
     print(output)
 
     if indentIncreasing:
-        indent += 1 # The same as indent = indent + 1
+        indent += 1  # The same as indent = indent + 1
         if indent > 20:
             indentIncreasing = False
     else: # indentDecreasing

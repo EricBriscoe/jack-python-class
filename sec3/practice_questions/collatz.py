@@ -7,7 +7,13 @@ def collatz(number):
     If the number is even your next number will be number//2
     If the number is odd your next number will be 3 * number + 1
     """
-    pass
+    number = int
+    while number > 1:
+        if number % 2 == 0:
+            number = number // 2
+        if number % 2 == 1:
+            number = number * 3 + 1
+
 
 
 if __name__ == "__main__":
